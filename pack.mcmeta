@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": {
+      "text": "HP Bar 데이터팩",
+      "color": "red",
+      "bold": true
+    },
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}
