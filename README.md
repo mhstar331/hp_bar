@@ -37,10 +37,10 @@
 `hp_bar_`로 시작하는 다음 objective는 모두 내부용입니다.
 
 - `hp_bar_old_max_hp`, `hp_bar_abs`, `hp_bar_old_max_abs`, `hp_bar_max_abs`
-- `hp_bar_hp_ratio`, `hp_bar_Constant`, `hp_bar_temp`, `hp_bar_old_abs`
+- `hp_bar_temp`, `hp_bar_old_abs`
 - `hp_bar_max_hp`, `hp_bar_hp`, `hp_bar_kill`, `hp_bar_old_hp`
 
-`#10000`, `#20`, `#13000`은 비율 계산용 상수이며, `#abs`, `#max_abs`, `#hp`, `#max`, `#max_hp`, `#total_hp`, `#temp_s`, `#temp_t`, `#sum_abs`는 계산 중간값을 저장하는 가상 플레이어입니다.
+`#abs`, `#max_abs`, `#hp`, `#max_hp`, `#sum_abs`는 계산 중간값을 저장하는 가상 플레이어입니다.
 
 ### Storage
 
@@ -57,4 +57,4 @@
 
 ## 요구 사항
 
-- Minecraft Java Edition 26.2(이상도 되긴 될 듯?)
+- Minecraft Java Edition 26.3 이상 (`/compute` 명령어 필요)
