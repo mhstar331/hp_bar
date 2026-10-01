@@ -18,7 +18,7 @@ scoreboard players set #20 hp_bar_Constant 20
 scoreboard players set #13000 hp_bar_Constant 13000
 
 #test 소환
-execute unless entity @e[tag=hp_bar_test] run summon armor_stand ~ ~ ~ {Tags:["hp_bar_test"],Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Small:1b}
+execute unless entity @e[type=armor_stand,tag=hp_bar_test] run summon armor_stand ~ ~ ~ {Tags:["hp_bar_test"],Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Small:1b}
 
 #forceload
 forceload add ~ ~
