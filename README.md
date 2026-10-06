@@ -20,15 +20,15 @@ A Minecraft datapack that displays a health bar above mobs.
 2. Run `/reload` in your world.
 3. Add the `hp_bar_owner` tag to the mob you want to display a health bar for.
 
-`` `mcfunction
+```mcfunction
 /tag <target> add hp_bar_owner
-`` `
+```
 
 Example:
 
-`` `mcfunction
+```mcfunction
 /tag @e[type=zombie,limit=1,sort=nearest] add hp_bar_owner
-`` `
+```
 
 The health bar will spawn above the tagged mob and automatically update as its health changes.
 
