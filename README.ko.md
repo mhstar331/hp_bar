@@ -1,8 +1,8 @@
 # HP Bar 데이터팩
 
 ## 언어
-- [한국어](./README.md)
-- [English](./README.en.md)
+- [한국어](./README.ko.md)
+- [English](./README.md)
 
 마인크래프트에서 몹의 체력바를 표시하는 데이터팩입니다.
 
