@@ -6,6 +6,8 @@
 
 A Minecraft datapack that displays a health bar above mobs.
 
+The AI was used only to generate the transform formula.
+
 ## Features
 
 - Real-time display of a mob's current and maximum health
