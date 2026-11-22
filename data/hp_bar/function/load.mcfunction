@@ -1,4 +1,4 @@
-# scoreboard 생성
+# scoreboard
 scoreboard objectives add hp_bar_old_max_hp dummy
 scoreboard objectives add hp_bar_abs dummy
 scoreboard objectives add hp_bar_old_max_abs dummy
@@ -10,7 +10,7 @@ scoreboard objectives add hp_bar_hp dummy
 scoreboard objectives add hp_bar_kill dummy
 scoreboard objectives add hp_bar_old_hp dummy
 
-#test 소환
+#test
 execute unless entity @e[type=armor_stand,tag=hp_bar_test] run summon armor_stand ~ ~ ~ {Tags:["hp_bar_test"],Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Small:1b}
 
 #forceload
